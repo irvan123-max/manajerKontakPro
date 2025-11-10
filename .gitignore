@@ -1,8 +1,5 @@
 *.json
-echo "__pycache__/"
->> gitignore
-git status
-git add
-git commit -m "Versi permata: Proyek Manajer Kontak"
-gh repo create ManajerKontrakPro --public --source=. --remote=origin
-git push -u origin master
+.DS_Store
+__pycache__/
+*.pyc
+.dockerignore
